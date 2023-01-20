@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alef', sans-serif;
+}
+
+.container{
+    margin: auto;
+    max-width: 950px;
+    position: relative;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 88px;
+    position: relative;
+    display: flex;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    color: #828282;
+    font-family: 'Alef', sans-serif;   
+    margin-top: 33.05px; 
+    text-align: center;
+}
+
+.navbar li{
+    margin-right: 154.64px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.home{
+    color: black;
+}
+
+hr{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #828282;
+    background: #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+.head{
+    display: block;
+    max-width: 100%;
+    height: 188.5px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.name{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    max-height: 188.5;
+    max-width: 100%;
+    margin-top: 39.69px;
+    line-height: 59px;
+}
+
+.old{
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-top: 94.77px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.language{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    right: -26px;
+    top: 95px;
+    rotate: -90deg;
+    width: 65px;
+    height: 20px;
+    white-space: nowrap;
+}
+
+.ru{
+    color: #828282;
+}
+
+.logo{
+    width: 943px;
+    height: 387px;
+    margin-bottom: 104px;
+}
+
+.about_me{
+    width: 1445px;
+    height: 506px;
+    margin: 0 auto;
+    background: #F6F6F6;
+    position: relative;
+}
+
+.about_me-1{
+    position: absolute;
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 120px;
+    display: inline-block;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.about_me p{
+    position: absolute;
+    display: flex;
+    width: 485px;
+    height: 218px;
+    margin: 181px 480px 107px 480px;
+    text-align: center;
+}
+
+.skills{
+    height: 610px;
+    position: relative;
+}
+
+.skil{
+    position: absolute;
+    display: block;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 91px;
+}
+
+.skills p{
+    position: absolute;
+    display: block;
+    size: 18px;
+    line-height: 22p;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 186px;
+}
+
+.skills ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    margin-top: 292px;
+    width: 100%;
+    color: #828282;
+    size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.skills ul li{
+    margin: 0 auto;
+}
+
+.ph{
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+    margin-bottom: 24px;
+}
+
+.ai{
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+    margin-bottom: 24px;
+}
+
+.ae{
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+    margin-bottom: 24px;
+}
+
+.figma{
+    margin-bottom: 24px;
+    height: 92px;
+}
+
+.star{
+    margin-top: 40px;
+}
+
+.portfolio{
+    position: relative;
+    width: 1445px;
+    height: 2253px;
+    background: #f6f6f6;
+    margin: 0 auto;
+}
+
+.text{
+    margin-top: 113px;
+    margin-bottom: 47px;
+    position: absolute;
+    font-size: 34px;
+    line-height: 42px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.img{
+    position: absolute;
+    display: flex;
+    margin-top: 203px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.proect{
+    position: absolute;
+    display: block;
+    margin: 757px 575px 0 575px;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+
+.reebok{
+    margin-top: 879px;
+}
+
+.reebok1{
+    margin:1445px 640px 0 640px;
+    white-space: nowrap;
+}
+
+.kam{
+    margin-top: 1567px;
+}
+
+.kam1{
+    margin-top: 2135px;
+}
+
+.c{
+    margin-left: 648px;
+    margin-right: 650px;
+}
+
+.footer{
+    position: relative;
+    height: 622px;
+    margin: auto;
+}
+
+.footer p{
+    position: absolute;
+    margin: 177px 579px 0 590px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+button{
+    height: 42px;
+    width: 180px;
+    background: black;
+    color: white;
+    border-radius: 21px;
+    margin: 251px 630px 329px 634px;
+    cursor: pointer;
+}
+
+.in{
+    position: absolute;
+    width: 40px;
+}
+
+.footer ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    margin: -230px 550px 203px 552px;
+}
+
+.footer ul li{
+    margin-right: 61px;
+}
