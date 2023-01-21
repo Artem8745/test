@@ -108,6 +108,10 @@ hr{
     justify-content: center;
 }
 
+.logo2{
+    display: none;
+}
+
 .about_me{
     max-width: 1445px;
     height: 506px;
@@ -330,4 +334,19 @@ button{
     margin-top: 464px;
     size: 14px;
     color: #828282;
+}
+
+@media(max-width: 1081px){
+    .logo{
+        display: none;
+    }
+
+    .logo2{
+        display: flex;
+        max-width: 943px;
+        height: 387px;
+        margin-bottom: 104px;
+        margin: auto;
+        justify-content: center;
+    }
 }
