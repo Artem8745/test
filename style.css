@@ -336,14 +336,14 @@ button{
     color: #828282;
 }
 
-@media(max-width: 1081px){
+@media(max-width: 394px){
     .logo{
         display: none;
     }
 
     .logo2{
         display: flex;
-        max-width: 943px;
+        max-width: 393px;
         height: 387px;
         margin-bottom: 104px;
         margin: auto;
