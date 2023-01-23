@@ -47,8 +47,10 @@ body{
 }
 
 hr{
+    display: flex;
     width: 100%;
     margin: auto;
+    margin-top: 88px;
     border: 1px solid #828282;
     background: #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -348,5 +350,60 @@ button{
         margin-bottom: 104px;
         margin: auto;
         justify-content: center;
+    }
+
+    .img{
+        width: 316px;
+        height: 176px;
+    }
+
+    .kam2{
+        margin-top: 393px;
+    }
+
+    .reebok{
+        margin-top: 493px;
+    }
+
+    .reebok1{
+        margin-top: 704px;
+    }
+
+    .kam{
+        margin-top: 804px;
+    }
+
+    .kam1{
+        margin-top: 1015px;
+    }
+
+    .portfolio{
+        height: 1118px;
+    }
+
+    .skills{
+        height: 1421px;
+    }
+
+    .skills ul{
+        margin-top: 0;
+        display: block;
+    }
+
+    .ph{
+        justify-content: center;
+        margin-top: 254px;
+    }
+
+    .ai{
+        margin-top: 81px;
+    }
+
+    .ae{
+        margin-top: 81px;
+    }
+
+    .figma{
+        margin-top: 81px;
     }
 }
