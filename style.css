@@ -539,6 +539,7 @@ button{
 }
 .menu__box {
   transition-duration: .25s;
+  z-index: 1;
 }
 .menu__item {
   transition-duration: .25s;
