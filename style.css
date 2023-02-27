@@ -11,6 +11,14 @@ body{
     font-family: 'Alef', sans-serif;
 }
 
+.ru{
+    display: none;
+}
+
+.en{
+    display: flex;
+}
+
 .container{
     margin: auto;
     max-width: 950px;
@@ -101,8 +109,13 @@ hr{
     white-space: nowrap;
 }
 
-.ru{
+.rus{
     color: #828282;
+    cursor: pointer;
+}
+
+.eng{
+    cursor: pointer;
 }
 
 .logo{

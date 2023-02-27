@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме с фигмы</title>
     <link rel="stylesheet" href="style.css">
-    <script src="/script.js"></script>
 </head>
 <body>
 
@@ -14,24 +13,27 @@
     <div class="container">
         <div class="navbar-container">
             <ul class="navbar">
-                <li class="home">Home</li>
-                <li class="ab">About me</li>
-                <li>Skills</li>
-                <li>Portfolio</li>
-                <li>Contacts</li>
+                <li class="home"><div class="en">Home</div><div class="ru">Дом</div></li>
+                <li class="ab"><div class="en">About me</div><div class="ru">Обо мне</div></li>
+                <li><div class="en">Skills</div><div class="ru">Навыки</div></li>
+                <li><div class="en">Portfolio</div><div class="ru">Портфолио</div></li>
+                <li><div class="en">Contacts</div><div class="ru">Контакты</div></li>
             </ul>
             <hr>
         </div>
 
         <div class="head">
             <div class="name">
-                <h1>Denis <br> Novik</h1>
+                <div class="en"><h1>Denis <br> Novik</h1></div><div class="ru"><h1>Денис <br> Новик</h1></div>
             </div>
             <div class="old">
-                <h3>UX | UI designer <br>
+                <div class="en"><h3>UX | UI designer <br>
                     24 years old, Minsk</h3>
+                </div>
+                <div class="ru"><h3>UX | UI-дизайнер
+                    <br> 24 года, Минск</h3></div>
             </div>
-            <div class="language language1"><div class="ru">RU</div> | ENG</div>
+            <div class="language language1"><div class="rus">RU</div> | <div class="eng">ENG</div></div>
             <div class="logo2"><img src="./img/1-1.png" alt=""></div>
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -39,12 +41,12 @@
                   <span></span>
                 </label>
                 <ul class="menu__box">
-                  <li><a class="menu__item" href="#">Home</a></li>
-                  <li><a class="menu__item" href="#">About me</a></li>
-                  <li><a class="menu__item" href="#">Skills</a></li>
-                  <li><a class="menu__item" href="#">Portfolio</a></li>
-                  <li><a class="menu__item" href="#">Contacts</a></li>
-                  <li><a class="menu__item" href="#"><div class="language language2"><div class="ru">RU</div> | ENG</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="en">Home</div><div class="ru">Дом</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="en">About me</div><div class="ru">Обо мне</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="en">Skills</div><div class="ru">Навыки</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="en">Portfolio</div><div class="ru">Портфолио</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="en">Contacts</div><div class="ru">Контакты</div></a></li>
+                  <li><a class="menu__item" href="#"><div class="language language2"><div class="ry">RU</div> | ENG</div></a></li>
                 </ul>
               </div>
         </div>
@@ -52,7 +54,7 @@
             <img class="logo" src="./img/1.jpg" alt="logo">
         </div>
     </div>
-    <div class="about_me">
+    <div class="about_me en">
         <div class="about_me-1">About me</div>
         <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
             I'm interested in design and everything connected with it.
@@ -63,10 +65,23 @@
             Ready to implement excellent projects <br>
              with wonderful people.</p>
     </div>
+    <div class="about_me ru">
+        <div class="about_me-1">Обо мне</div>
+        <p>Привет, я Денис — UX/UI дизайнер из Минска. <br>
+            Интересуюсь дизайном и всем, что с ним связано.
+            <br><br><br>
+            Я учусь на курсах "Веб и мобильный дизайн <br>
+            интерфейсы» в IT-Академии.
+            <br><br><br>
+            отовы реализовать отличные проекты <br>
+             с замечательными людьми.</p>
+    </div>
     <div class="container">
         <div class="skills">
-            <div class="skil">Skills</div>
-            <p>I work in such programs as</p>
+            <div class="skil en">Skills</div>
+            <div class="skil ru">Навыки</div>
+            <p class="en">I work in such programs as</p>
+            <p class="ru">работаю в таких программах как</p>
             <ul>
                 <li><img class="ph" src="./img/4.svg" alt=""> <br> Adobe <br> Photoshop <div class="star"><img src="./img/Star.svg"><img src="./img/Star.svg"><img src="./img/Star.svg"><img src="./img/Star.svg"><img src="./img/Star (1).svg"></div></li>
                 <li><img class="ai" src="./img/2.svg" alt=""> <br> Adobe <br> Illustrator <div class="star"><img src="./img/Star.svg"><img src="./img/Star.svg"><img src="./img/Star.svg"><img src="./img/Star (1).svg"><img src="./img/Star (1).svg"></div></li>
@@ -76,17 +91,23 @@
         </div>
     </div>
     <div class="portfolio">
-        <div class="text">Portfolio</div>
+        <div class="text en">Portfolio</div>
+        <div class="text ru">Портфолио</div>
         <div class="img"><img src="./img/Слой 8.png" alt=""></div>
-        <div class="proect kam2">Online fashion store - Homepage</div>
+        <div class="proect kam2 en">Online fashion store - Homepage</div>
+        <div class="proect kam2 ru">Интернет-магазин модной одежды - Домашняя страница</div>
         <div class="img reebok"><img src="./img/reebok_web.png" alt=""></div>
-        <div class="proect reebok1">Reebok Store - Concept</div>
+        <div class="proect reebok1 en">Reebok Store - Concept</div>
+        <div class="proect reebok1 ru">Магазин Reebok - Концепция</div>
         <div class="img kam"><img src="./img/kam.png" alt=""></div>
-        <div class="proect kam1">Braun Landing Page - Concept</div>
+        <div class="proect kam1 en">Braun Landing Page - Concept</div>
+        <div class="proect kam1 ru">Целевая страница Braun - Концепция</div>
     </div>
     <div class="footer">
-        <div class="text c">Contacts</div>
-        <p>Want to know more or just chat? <br> You are welcome!</p>
+        <div class="text c en">Contacts</div>
+        <div class="text c ru">Контакты</div>
+        <p class="en">Want to know more or just chat? <br> You are welcome!</p>
+        <p class="ru">Хотите узнать больше или просто поболтать? <br> Добро пожаловать!</p>
         <div class="button1"><button>Send message</button></div>
         <div class="contic1">
             <div class="contic2"><a href="#"><img class="contic" src="./img/ln.png" alt=""></a></div>
@@ -94,9 +115,12 @@
             <div class="contic2"><a href="#"><img class="contic" src="./img/be1.png" alt=""></a></div>
             <div class="contic2"><a href="#"><img class="contic" src="./img/Vector (6).svg" alt=""></a></div>
         </div>
-        <div class="footer-text">Like me on <br>
+        <div class="footer-text en">Like me on <br>
+            LinkedIn, Instagram, Behance, Dribble</div>
+        <div class="footer-text ru">Нравится мне на <br>
             LinkedIn, Instagram, Behance, Dribble</div>
     </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
