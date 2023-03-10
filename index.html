@@ -11,18 +11,40 @@
 
     
     <div class="container">
-        <div class="navbar-container">
-            <ul class="navbar">
-                <li class="home"><div class="en">Home</div><div class="ru">Дом</div></li>
-                <li class="ab"><div class="en">About me</div><div class="ru">Обо мне</div></li>
-                <li><div class="en">Skills</div><div class="ru">Навыки</div></li>
-                <li><div class="en">Portfolio</div><div class="ru">Портфолио</div></li>
-                <li><div class="en">Contacts</div><div class="ru">Контакты</div></li>
-            </ul>
-            <hr>
-        </div>
-
-        <div class="head">
+        <header class="header">
+            <div class="navbar-container menu__list">
+                <ul class="navbar en">
+                    <li><a class="menu__link home active" data-goto=".page__section_1" href="#">Home</a></li>
+                    <li><a class="menu__link About_me" data-goto=".page__section_2" href="#">About me</a></li>
+                    <li><a class="menu__link Skills" data-goto=".page__section_3" href="#">Skills</a></li>
+                    <li><a class="menu__link Portfolio" data-goto=".page__section_4" href="#">Portfolio</a></li>
+                    <li><a class="menu__link Contacts" data-goto=".page__section_5" href="#">Contacts</a></li>
+                </ul>
+                <ul class="navbar ru">
+                    <li><a class="menu__link home active" data-goto=".page__section_1" href="#">Дом</a></li>
+                    <li><a class="menu__link About_me" data-goto=".page__section_2" href="#">Обо мне</a></li>
+                    <li><a class="menu__link Skills" data-goto=".page__section_3" href="#">Навыки</a></li>
+                    <li><a class="menu__link Portfolio" data-goto=".page__section_4" href="#">Портфолио</a></li>
+                    <li><a class="menu__link Contacts" data-goto=".page__section_5" href="#">Контакты</a></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                <li><a class="menu__item" href="#"><div class="en">Home</div><div class="ru">Дом</div></a></li>
+                <li><a class="menu__item" href="#"><div class="en">About me</div><div class="ru">Обо мне</div></a></li>
+                <li><a class="menu__item" href="#"><div class="en">Skills</div><div class="ru">Навыки</div></a></li>
+                <li><a class="menu__item" href="#"><div class="en">Portfolio</div><div class="ru">Портфолио</div></a></li>
+                <li><a class="menu__item" href="#"><div class="en">Contacts</div><div class="ru">Контакты</div></a></li>
+                <li><a class="menu__item"><div class="language language2"><div class="rus">RU</div> |<div class="eng"> ENG</div></div></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class='head page__section_1 section'>
             <div class="name">
                 <div class="en"><h1>Denis <br> Novik</h1></div><div class="ru"><h1>Денис <br> Новик</h1></div>
             </div>
@@ -35,49 +57,38 @@
             </div>
             <div class="language language1"><div class="rus">RU</div> | <div class="eng">ENG</div></div>
             <div class="logo2"><img src="./img/1-1.png" alt=""></div>
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-                </label>
-                <ul class="menu__box">
-                  <li><a class="menu__item" href="#"><div class="en">Home</div><div class="ru">Дом</div></a></li>
-                  <li><a class="menu__item" href="#"><div class="en">About me</div><div class="ru">Обо мне</div></a></li>
-                  <li><a class="menu__item" href="#"><div class="en">Skills</div><div class="ru">Навыки</div></a></li>
-                  <li><a class="menu__item" href="#"><div class="en">Portfolio</div><div class="ru">Портфолио</div></a></li>
-                  <li><a class="menu__item" href="#"><div class="en">Contacts</div><div class="ru">Контакты</div></a></li>
-                  <li><a class="menu__item"><div class="language language2"><div class="rus">RU</div> |<div class="eng"> ENG</div></div></a></li>
-                </ul>
-              </div>
+            
         </div>
         <div class="logo">
             <img class="logo" src="./img/1.jpg" alt="logo">
         </div>
     </div>
-    <div class="about_me en">
-        <div class="about_me-1">About me</div>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
-            I'm interested in design and everything connected with it.
-            <br><br><br>
-            I'm studying at courses "Web and mobile design <br>
-            interfaces" in IT-Academy.
-            <br><br><br>
-            Ready to implement excellent projects <br>
-             with wonderful people.</p>
-    </div>
-    <div class="about_me ru">
-        <div class="about_me-1">Обо мне</div>
-        <p>Привет, я Денис — UX/UI дизайнер из Минска. <br>
-            Интересуюсь дизайном и всем, что с ним связано.
-            <br><br><br>
-            Я учусь на курсах "Веб и мобильный дизайн <br>
-            интерфейсы» в IT-Академии.
-            <br><br><br>
-            отовы реализовать отличные проекты <br>
-             с замечательными людьми.</p>
+    <div class="about_me page__section_2 section">
+        <div class="en">
+            <div class="about_me-1">About me</div>
+            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                I'm interested in design and everything connected with it.
+                <br><br><br>
+                I'm studying at courses "Web and mobile design <br>
+                interfaces" in IT-Academy.
+                <br><br><br>
+                Ready to implement excellent projects <br>
+                with wonderful people.</p>
+        </div>
+        <div class="ru">
+            <div class="about_me-1">Обо мне</div>
+            <p>Привет, я Денис — UX/UI дизайнер из Минска. <br>
+                Интересуюсь дизайном и всем, что с ним связано.
+                <br><br><br>
+                Я учусь на курсах "Веб и мобильный дизайн <br>
+                интерфейсы» в IT-Академии.
+                <br><br><br>
+                Готовы реализовать отличные проекты <br>
+                с замечательными людьми.</p>
+        </div>
     </div>
     <div class="container">
-        <div class="skills">
+        <div class="skills page__section_3 section">
             <div class="skil en">Skills</div>
             <div class="skil ru">Навыки</div>
             <p class="en">I work in such programs as</p>
@@ -90,7 +101,7 @@
             </ul>
         </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio page__section_4 section">
         <div class="text en">Portfolio</div>
         <div class="text ru">Портфолио</div>
         <div class="img"><img src="./img/Слой 8.png" alt=""></div>
@@ -103,7 +114,7 @@
         <div class="proect kam1 en">Braun Landing Page - Concept</div>
         <div class="proect kam1 ru">Целевая страница Braun - Концепция</div>
     </div>
-    <div class="footer">
+    <div class="footer page__section_5 section">
         <div class="text c en">Contacts</div>
         <div class="text c ru">Контакты</div>
         <p class="en">Want to know more or just chat? <br> You are welcome!</p>

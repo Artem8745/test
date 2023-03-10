@@ -11,6 +11,14 @@ body{
     font-family: 'Alef', sans-serif;
 }
 
+.menu__link{
+    text-decoration: none;
+}
+
+a.active{
+    color: black;
+}
+
 .ru{
     display: none;
 }
@@ -55,7 +63,23 @@ body{
 }
 
 .home{
-    color: black;
+    color: #828282;
+}
+
+.About_me{
+    color: #828282;
+}
+
+.Skills{
+    color: #828282;
+}
+
+.Portfolio{
+    color: #828282;
+}
+
+.Contacts{
+    color: #828282;
 }
 
 hr{
